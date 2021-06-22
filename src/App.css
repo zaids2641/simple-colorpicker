@@ -1,0 +1,23 @@
+.App {
+    position: relative;
+    overflow: auto;
+}
+
+footer {
+    display: flex;
+    padding: 9px;
+    flex-flow: column;
+    align-items: center;
+    height: 10vh;
+    color: rgb(70, 70, 70)
+}
+
+footer p a {
+    text-decoration: none;
+    color: rgb(61, 60, 60)
+}
+
+footer p a:hover {
+    text-decoration: none;
+    color: rgb(34, 34, 34)
+}

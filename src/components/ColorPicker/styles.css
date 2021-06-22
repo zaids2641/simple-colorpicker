@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+.result {
+    overflow: hidden;    
+    height: 500px;
+    width: 1000px;
+    border-radius: 0.3rem;
+    background: rgb(0,0,0);
+}
+
+.result p{
+    font-size: 5vw;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    line-height: 55px;
+    margin: 155px auto;    
+}
