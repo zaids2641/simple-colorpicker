@@ -8,15 +8,13 @@ import {
   rgbString
 } from "@shopify/polaris";
 import '@shopify/polaris/dist/styles.css';
-import './styles.css'
-import AppFooter from '../Footer/footer';
+import './styles.css';
 
 const ColorPickerApp = () => {
         const [userText, setUserText] = useState('');
-
         const inputValue = useCallback(
             (value) => setUserText(value)
-        )
+        );
     
         const [color, setColor] = useState({
             hue: 300,
@@ -40,7 +38,7 @@ const ColorPickerApp = () => {
                         }}
                         >
                             <ColorPicker onChange={setColor} color={color} allowAlpha allowOpacity/>
-                            <span onChange={this.handleRgbChange}>{rgbaColor}</span>
+                            <span>{rgbaColor}</span>
                         </div>
                 </Page>
             </AppProvider>

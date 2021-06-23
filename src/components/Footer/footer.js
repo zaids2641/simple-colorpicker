@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const AppFooter = props => {
     return (
@@ -7,7 +7,7 @@ const AppFooter = props => {
                 Created by: Felix Diaz III
             </p>
             <p>
-                <a href="https://github.com/zaids2641/simple-colorpicker" target="_blank" rel="noopener noreferref" >Full Codes in GitHub</a>
+                <a href="https://github.com/zaids2641/simple-colorpicker" target="_blank" rel="noopener noreferrer" >Full Codes in GitHub</a>
             </p>
         </footer>
     )
